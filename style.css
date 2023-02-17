@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(19, 97, 42);
+    font-family: sans-serif;
+    
+}
+.titulo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 0.75em;
+
+}
+#imagem-forca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+}
+.imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 13em;
+    width: 13em;
+}
+#palavra-secreta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 2.5em;
+    font-size: 1em;
+    flex-wrap: wrap;
+}
+#letra{
+    width: 1em;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid aliceblue;
+    padding: 0.4em;
+    margin: 0 0.4em;
+}
+#teclado{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1em;
+}
+
+.teclas button{
+    padding: 0.4em;
+    margin: 0 0.05em;
+    cursor: pointer;
+    border-radius: 0.4em;
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+}
+.teclas button:hover{
+    transform: scale(1.1);
+}
+
+#dica-palavra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin: 1.8em 0;
+    font-size: 1.35em;
+}

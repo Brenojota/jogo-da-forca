@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imagem/forca06.png">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-principal">Jogo da Forca</h1>
+    </header>
+    <section class="game">
+        <div id="imagem-forca">
+            <img src="./imagem/forca0.png" class="imagem">
+            <div class="teste"></div>
+        </div>
+
+        <div id="palavra-secreta">
+
+            <!-- <div id="letra">A</div>
+            <div id="letra">B</div>
+            <div id="letra">C</div>
+            <div id="letra">D</div>
+            <div id="letra">E</div> -->
+
+        </div>
+
+        <div id="teclado">
+            <div class="teclas">
+                <button id="tecla-Q" class="digitos" value = "1" onclick="verificaLetraEscolhida('Q')">Q</button>
+                <button id="tecla-W" class="digitos" value = "1" onclick="verificaLetraEscolhida('W')">W</button>
+                <button id="tecla-E" class="digitos" value = "1" onclick="verificaLetraEscolhida('E')">E</button>
+                <button id="tecla-R" class="digitos" value = "1" onclick="verificaLetraEscolhida('R')">R</button>
+                <button id="tecla-T" class="digitos" value = "1" onclick="verificaLetraEscolhida('T')">T</button>
+                <button id="tecla-Y" class="digitos" value = "1" onclick="verificaLetraEscolhida('Y')">Y</button>
+                <button id="tecla-U" class="digitos" value = "1" onclick="verificaLetraEscolhida('U')">U</button>
+                <button id="tecla-I" class="digitos" value = "1" onclick="verificaLetraEscolhida('I')">I</button>
+                <button id="tecla-O" class="digitos" value = "1" onclick="verificaLetraEscolhida('O')">O</button>
+                <button id="tecla-P" class="digitos" value = "1" onclick="verificaLetraEscolhida('P')">P</button>
+            </div>
+            <div class="teclas">
+                <button id="tecla-A" class="digitos" value = "1" onclick="verificaLetraEscolhida('A')">A</button>
+                <button id="tecla-S" class="digitos" value = "1" onclick="verificaLetraEscolhida('S')">S</button>
+                <button id="tecla-D" class="digitos" value = "1" onclick="verificaLetraEscolhida('D')">D</button>
+                <button id="tecla-F" class="digitos" value = "1" onclick="verificaLetraEscolhida('F')">F</button>
+                <button id="tecla-G" class="digitos" value = "1" onclick="verificaLetraEscolhida('G')">G</button>
+                <button id="tecla-H" class="digitos" value = "1" onclick="verificaLetraEscolhida('H')">H</button>
+                <button id="tecla-J" class="digitos" value = "1" onclick="verificaLetraEscolhida('J')">J</button>
+                <button id="tecla-K" class="digitos" value = "1" onclick="verificaLetraEscolhida('K')">K</button>
+                <button id="tecla-L" class="digitos" value = "1" onclick="verificaLetraEscolhida('L')">L</button>
+                <button id="tecla-Ç" class="digitos" value = "1" onclick="verificaLetraEscolhida('Ç')">Ç</button>
+
+            </div>
+            <div class="teclas">
+                <button id="tecla-Z" class="digitos" value = "1" onclick="verificaLetraEscolhida('Z')">Z</button>
+                <button id="tecla-X" class="digitos" value = "1" onclick="verificaLetraEscolhida('X')">X</button>
+                <button id="tecla-C" class="digitos" value = "1" onclick="verificaLetraEscolhida('C')">C</button>
+                <button id="tecla-V" class="digitos" value = "1" onclick="verificaLetraEscolhida('V')">V</button>
+                <button id="tecla-B" class="digitos" value = "1" onclick="verificaLetraEscolhida('B')">B</button>
+                <button id="tecla-N" class="digitos" value = "1" onclick="verificaLetraEscolhida('N')">N</button>
+                <button id="tecla-M" class="digitos" value = "1" onclick="verificaLetraEscolhida('M')">M</button>
+                <button id="tecla--" onclick="verificaLetraEscolhida('-')">-</button>
+                <button id="tecla-game" onclick="">🎮</button>
+
+            </div>
+        </div>
+
+        <div id="dica-palavra">
+            <!-- <p>CATEGORIA</p> -->
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
