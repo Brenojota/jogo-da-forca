@@ -299,7 +299,7 @@ palavras = [
         categoria: "LINGUAGEM DE PROGRAMAÇÃO"
     },
     palavra074 = {
-        nome: "INGLÊS",
+        nome: "INGLES",
         categoria: "IDIOMA"
     },
     palavra075 = {
@@ -416,6 +416,7 @@ function geraPalavra() {
     const indexPalavra = parseInt(Math.random() * palavras.length);
     palavraSecreta = palavras[indexPalavra].nome;
     categoriaPalavra = palavras[indexPalavra].categoria;
+    
     inserirPalavra();
 }
 geraPalavra();
@@ -438,6 +439,7 @@ function inserirPalavra() {
             word.innerHTML += `<div id='letra'> ${renderizarPalavra[i]} </div>`
         }
     }
+    
 }
 
 function verificaLetraEscolhida(letra) {
